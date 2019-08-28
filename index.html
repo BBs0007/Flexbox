@@ -11,10 +11,16 @@
 }
 body {
 margin: 0;
+padding: 0;
+display:flex;
+flex-wrap: wrap;
+min-height: 100vh;
+
 }
 header {
 background: rgb(24, 172, 61);
 height: 100px;
+width: 100%;
 }
 h1 {
 text-align: center;
@@ -35,14 +41,14 @@ padding: 10px;
 margin: 10px;
 background: rgb(0, 0, 0);
 color: aliceblue;
-width: 2500px;
-height: 1000px;
+display: inline-block;
 
 }
 
 section {
     display: flex;
 
+    
 }
 .aside{
     
@@ -50,14 +56,15 @@ padding: 10px;
 margin: 10px;
 background: rgb(0, 0, 0);
 color: aliceblue;
+width: 300px;
+min-width: 300px;
+display: inline-block;
 
-
-    height:1000px ;
-    width: 1000px;
 }
 .pie{
-    width: 1351px;
-    height: 200px;
+    align-self: flex-end;
+    width: 100%;
+    
     background-color: aqua;
 }
     </style>
@@ -88,21 +95,14 @@ color: aliceblue;
       <article class="aside">
         <h2>columna 2</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut similique aperiam labore quos harum exercitationem ratione, magnam dolorum, maiores dolores quo suscipit, ea unde iure beatae illum! Alias, illo?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est praesentium saepe quam delectus libero eaque ex explicabo rem impedit velit illum recusandae dolores repellat, accusamus quos officia at ut cum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus neque quas ex voluptatibus, repellat ut aliquam cupiditate cumque ratione. Totam consectetur similique saepe aperiam atque veritatis, adipisci eaque delectus. Sed?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consequatur repudiandae vitae laboriosam dignissimos nisi, quis provident eligendi ducimus ipsum deserunt repellat sed commodi distinctio quos qui est, laborum corporis.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi minima at voluptate quis? Nostrum laboriosam, ipsa distinctio magnam saepe deserunt officiis ad animi accusantium earum, voluptatem, ipsam dolorem ratione unde.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum vel, et corporis sequi tempore earum a tempora asperiores quos autem dolores consectetur cumque ratione magni accusamus? In, tempora fugit?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, obcaecati, harum, illo similique veniam sapiente eius at et soluta ratione provident nisi laudantium sed suscipit quaerat doloremque laborum. Incidunt, maiores!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolorem, sit explicabo similique nobis tempore voluptatibus necessitatibus accusantium sapiente aliquam quam, corrupti aut dolores. Impedit iste tenetur recusandae. Expedita, consectetur.
+        <p>
                 </p>
       </article>
     </section>
   </body>
   <footer class="pie">
       <div>
-
+            <h1>Pie de pagina</h1>
       </div>
   </footer>
 
